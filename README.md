@@ -1,4 +1,4 @@
-# 🎬 AI-Powered Movie Recommendation System
+# 🎬 Movie-Recommendation-System-Using-AI
 
 A modern, intelligent movie recommendation system built with **Streamlit**, **OpenCV**, and **The Movie Database (TMDb) API**. Get personalized movie recommendations in real-time with advanced content-based filtering and visual poster analysis.
 
@@ -48,7 +48,7 @@ A modern, intelligent movie recommendation system built with **Streamlit**, **Op
 ### 1. Navigate to the Project Directory
 
 ```bash
-cd "Movie Recommendation Using Python"
+cd "Movie-Recommendation-System-Using-AI"
 ```
 
 ### 2. Create a Virtual Environment
