@@ -79,7 +79,7 @@ python3 -m venv .venv
 Create a `.env` file in the project directory:
 
 ```bash
-nano.env
+nano .env
 ```
 
 Edit the `.env` file and add your TMDb API key:
