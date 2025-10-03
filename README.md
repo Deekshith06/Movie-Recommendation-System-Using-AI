@@ -357,3 +357,8 @@ If you encounter any issues or have questions:
 ---
 
 **Enjoy discovering your next favorite movie! 🎬🍿**
+
+**For More Details Contact Me**
+Gmail:seelaboyinadeekshith@gmail.com
+Linkedin:https://www.linkedin.com/in/deekshith-s-684ab4297/
+Instagram ID:d_e_e_k_s_h_u_06
