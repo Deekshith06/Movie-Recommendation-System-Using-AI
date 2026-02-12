@@ -27,66 +27,61 @@ st.markdown("""
         padding-right: 0.5rem !important;
     }
     
-    /* Movie Card - Minimal & Clean */
+    /* Movie Card - Poster Only */
     .movie-card {
-        background-color: #161b22;
-        border-radius: 12px;
-        overflow: hidden;
-        border: 1px solid #30363d;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-        height: 320px; /* Reduced Height */
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        overflow: visible;
+        height: auto;
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
         cursor: pointer;
-        position: relative;
+        transition: transform 0.3s ease;
     }
     
-    /* Hover Effect - Subtle Lift & Glow */
+    /* Hover Effect - Scale Image Only */
     .movie-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
-        border-color: #58a6ff;
+        transform: translateY(-5px);
     }
     
-    /* Poster Image - Perfect Fit */
+    /* Poster Image */
     .movie-img {
         width: 100%;
         height: 240px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         object-fit: cover;
-        object-position: top center; /* Focus on faces */
+        object-position: top center;
         opacity: 0.95;
-        transition: opacity 0.3s ease, transform 0.5s ease;
+        transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
         display: block;
     }
     
     .movie-card:hover .movie-img {
         opacity: 1;
-        transform: scale(1.03); /* Subtle zoom */
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
     }
     
-    /* Title Section - Lighter & smoother transition */
+    /* Title Section - Below Poster */
     .movie-title {
-        height: 80px;
-        padding: 10px 15px 0 15px; /* Top padding for breathing room */
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: auto;
+        min-height: 40px;
+        padding: 10px 5px 0 5px;
         text-align: center;
         width: 100%;
-        z-index: 2;
         
         /* Typography */
         color: #e6edf3;
         font-size: 14px;
         font-weight: 500;
-        letter-spacing: 0.04em;
-        line-height: 1.3;
+        letter-spacing: 0.02em;
+        line-height: 1.4;
         
-        /* Background */
-        background: #161b22;
-        border-top: 1px solid rgba(255, 255, 255, 0.05); /* Extremely subtle separator */
+        /* Background Removed */
+        background: transparent;
+        border: none;
         
         /* Truncation */
         display: -webkit-box;
