@@ -1,4 +1,4 @@
-# 🎬 NextWatch
+# 🎬 NextWatch Movie Recommendation
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=flat-square&logo=streamlit)
@@ -8,6 +8,8 @@
 Content-based movie recommendation system that suggests films based on **plot, genre, and cast similarity**. Built with Python, Streamlit, and the OMDB API for real-time metadata.
 
 ---
+**🌐 [Try it Live](https://nextmovies.streamlit.app/)** - No installation required
+
 
 ## 🔄 How It Works
 
