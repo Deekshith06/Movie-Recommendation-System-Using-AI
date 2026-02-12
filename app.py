@@ -35,7 +35,7 @@ st.markdown("""
         border: 1px solid #30363d;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-        height: 400px; /* Fixed Height */
+        height: 320px; /* Reduced Height */
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
@@ -53,7 +53,7 @@ st.markdown("""
     /* Poster Image - Perfect Fit */
     .movie-img {
         width: 100%;
-        height: 320px;
+        height: 240px;
         object-fit: cover;
         object-position: top center; /* Focus on faces */
         opacity: 0.95;
